@@ -1,0 +1,16 @@
+import java.util.List;
+import java.util.ArrayList;
+// Escribe tu clase abajo
+public class Hacienda{ 
+    public List<Vehiculo> vehiculos = new ArrayList<Vehiculo>();
+    
+    public void agregarVehiculo(Vehiculo c){
+        vehiculos.add(c);
+    }
+    
+    public void mostrarImpuestosVehiculo(){
+        for(Vehiculo i : vehiculos){
+            System.out.println(i.toString());
+        }
+    }
+}
